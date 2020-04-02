@@ -32,7 +32,7 @@ class String
     if array.length == 0
       return 0
     else 
-      array.length
+      self.length
     end
   end
   
