@@ -28,7 +28,7 @@ class String
   end
 
   def count_sentences
-    new_array= self.split.squeeze(/[.?!]/)
+    new_array= self.split(".", "?","!")
      if new_array.length == 0
        return 0
      else 
