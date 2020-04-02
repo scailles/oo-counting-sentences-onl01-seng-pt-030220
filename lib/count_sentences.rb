@@ -32,7 +32,9 @@ class String
      if new_array.length == 0
        return 0
      else 
+        sentence_array.delete_if{|sentence| sentence.empty?}
         return new_array.length
+  
      end
    end
   
