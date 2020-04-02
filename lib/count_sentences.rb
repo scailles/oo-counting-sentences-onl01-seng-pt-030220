@@ -29,12 +29,12 @@ class String
 
   def count_sentences
     array= self.split(/[.?!]/)
-    if array.length == 0
-      return 0
-    else 
-      self.length
-    end
-  end
+     if array.length == 0
+       return 0
+     else 
+        array.length
+     end
+   end
   
   
 end
