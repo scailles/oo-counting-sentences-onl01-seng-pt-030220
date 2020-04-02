@@ -33,7 +33,7 @@ class String
     if array.length == 0
       return 0
     else 
-      return array.length
+      array.length
     end
   end
   
