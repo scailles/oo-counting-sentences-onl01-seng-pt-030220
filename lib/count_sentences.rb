@@ -35,6 +35,7 @@ class String
     else 
       return array.length
     end
+    array.length
   end
   
   
