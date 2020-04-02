@@ -9,9 +9,7 @@ class String
       return false
     end
   end
-    
-    
-  end
+  
 
   def question?
 
